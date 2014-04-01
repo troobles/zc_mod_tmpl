@@ -30,44 +30,8 @@ PLUGIN:
 * Directories: Settings | Implementation of the Settings API ZCAPI_SETTINGS for the Plugin
 * Directories: Views | Template Tags, Template Files and implementation of ZCAPI_TEMPLATE_LOADER
 * Directories: Lib | 
-* Directories: Builders | 
 * Directories: Assets | 
 * Directories: Vendors |
 * Files: plugin.php | loader.php | uninstall.php | index.php
 
-BUILDERS:
-
-BUILDERS are Parent/Factory Classes waiting to be extended.  
-
-They can be found in their own repositories, there may be some cross-over between them in the examples.
-
-Note: Version Control on the Builder Classes is Critical.
-
-* Shortcodes - ZCAPI_SHORTCODES 
-* Customizer - ZCAPI_SHORTCODES 
-* Dashboard - ZCAPI_SHORTCODES  
-* Settings - ZCAPI_SHORTCODES  
-* Meta Data - ZCAPI_SHORTCODES 
-* Taxonomy - ZCAPI_SHORTCODES 
-* Custom Object Types - ZCAPI_SHORTCODES 
-* Roles & Capabilities - ZCAPI_SHORTCODES 
-* Editor - ZCAPI_SHORTCODES 
-* Admin Views - ZCAPI_SHORTCODES 
-* Template Loader -  ZCAPI_SHORTCODES 
-
-BLUEPRINTS:
-
-Blueprints are example classes to be customized as needed
-
-* Widgets - API
-* 
-*
-*
-*
-
-
-TODO: 
-
-* Need a way to ensure that the Utility Classes in all Modules are easily updated from a central place.
-* Need to address Form Builder Class - Front End: Access | Post | User | Comments | Email
 
