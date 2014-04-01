@@ -29,7 +29,8 @@ PLUGIN:
 UTILITIES:
 
 Note: Version Control on the Utility Classes is Critical.
-TODO: Need a way to ensure that the Utility Classes in all Modules are easily updated from a central place.
+
+
       
 * Widgets - API
 * Shortcodes - API 
@@ -42,4 +43,9 @@ TODO: Need a way to ensure that the Utility Classes in all Modules are easily up
 * Editor - API
 * Admin Views - API
 * Template Loader -  API
-* [Form Builder] - see zc_form_builder
+
+TODO: 
+
+* Need a way to ensure that the Utility Classes in all Modules are easily updated from a central place.
+* Need to address Form Builder Class - Front End: Access | Post | User | Comments | Email
+
