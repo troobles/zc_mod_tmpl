@@ -6,6 +6,11 @@ Basic Framework Module Template guides
 Purpose is to maintain consistent coding, directory structures and implementations.
 Contains Standardised "Starters" for Module Development.
 
+CODE:
+
+* Use WP coding standards where possible
+* Use PHP documentation standards
+
 KEY GOALS:
 
 * Consistent Directory Structures
@@ -22,27 +27,44 @@ PLUGIN:
 * Standardised readme.txt
 * Standardised Plugin Header
 * Standardised CONSTANTS "Path" and "URI" definitions
-* Directories: Settings | Views | Lib | Utilities | Assets | Vendors
+* Directories: Settings | Implementation of the Settings API ZCAPI_SETTINGS for the Plugin
+* Directories: Views | Template Tags, Template Files and implementation of ZCAPI_TEMPLATE_LOADER
+* Directories: Lib | 
+* Directories: Builders | 
+* Directories: Assets | 
+* Directories: Vendors |
 * Files: plugin.php | loader.php | uninstall.php | index.php
 
+BUILDERS:
 
-UTILITIES:
+BUILDERS are Parent/Factory Classes waiting to be extended.  
 
-Note: Version Control on the Utility Classes is Critical.
+They can be found in their own repositories, there may be some cross-over between them in the examples.
 
+Note: Version Control on the Builder Classes is Critical.
 
-      
+* Shortcodes - ZCAPI_SHORTCODES 
+* Customizer - ZCAPI_SHORTCODES 
+* Dashboard - ZCAPI_SHORTCODES  
+* Settings - ZCAPI_SHORTCODES  
+* Meta Data - ZCAPI_SHORTCODES 
+* Taxonomy - ZCAPI_SHORTCODES 
+* Custom Object Types - ZCAPI_SHORTCODES 
+* Roles & Capabilities - ZCAPI_SHORTCODES 
+* Editor - ZCAPI_SHORTCODES 
+* Admin Views - ZCAPI_SHORTCODES 
+* Template Loader -  ZCAPI_SHORTCODES 
+
+BLUEPRINTS:
+
+Blueprints are example classes to be customized as needed
+
 * Widgets - API
-* Shortcodes - API 
-* Dashboard - API 
-* Settings - API 
-* Meta Data - API
-* Taxonomy - API
-* Custom Object Types - API
-* Roles & Capabilities - API
-* Editor - API
-* Admin Views - API
-* Template Loader -  API
+* 
+*
+*
+*
+
 
 TODO: 
 
